@@ -1,31 +1,43 @@
 @media only screen and (max-width: 768px) {
- 
-
-.profile{
-    gap: 100px;
-}
-
-.what-do-container{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    gap: 50px;
-}
-
-.Skill{
-    margin-top: 250px;
-}
 
 
-.education{
-    margin-top: 350px;
-}
+    .profile {
+        gap: 100px;
+    }
+
+    .what-do-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 50px;
+    }
+
+    .Skill {
+        margin-top: 250px;
+    }
+
+
+    .education {
+        margin-top: 350px;
+    }
+    .professional-skills{
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+     }
 
 
 
+     .rights{
+        gap: 125px;
+     }
 
 
 
@@ -36,10 +48,182 @@
 
 
 @media only screen and (max-width: 480px) {
- 
+
+    .profile-image {
+        width: 400px;
+        height: 400px;
+    }
+
+    .about-image img {
+        width: 400px;
+        height: 350px;
+    }
 
 
+    .about-text {
+        width: 430px;
+    }
+
+    .technical-skill {
+        width: 450px;
+    }
+
+    .progress {
+        width: 450px;
+    }
+    .professional-skills{
+        
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+       align-content: center;
+    }
+    .education{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+
+    .education-container-big{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 430px;
+    }
+    .education-container{
+        width: 430px;
+    }
+
+    .education-box{
+        width: 430px;
+    }
+
+      .education-box-2{
+        width: 430px;
+
+    }
+
+    .education-box-2 p:nth-child(3){
+        width: 380px;
+    }
+
+
+    .work-experince-box,
+    .work-experince-box-2{
+        width: 430px;
+    }
+
+
+
+    .portfolio-box{
+        width: 450px;
+    }
+
+
+
+    .portfolio-box img{
+        width: 450px;
+    }
+
+    .portfolio-box-second-p-2{
+        width: 430px;
+    }
+
+
+    .portfolio-box-second-p{
+        width: 400px;
+    }
+
+
+    
+
+    .portfolio-box-second{
+        width: 450px;
+    }
+
+
+
+    .portfolio-box-second img{
+        width: 450px;
+    }
+
+    .portfolio-box-second-p-2{
+        width: 430px;
+    }
+
+
+    .portfolio-box-second-p{
+        width: 400px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .footer-big-box-mini-1,
+    .footer-big-box-mini-2,
+    .footer-big-box-mini-3{
+        width: 400px;
+        margin-left: 25px;
+    }
+    .footer-emaail{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    
+    .footer-email-box{
+
+    }
+    .form-name input{
+        width: 200px;
+    }
+    form input{
+        width: 420px;
+    }
+    .textarea{
+        width: 420px;
+    }
+    #submit{
+        width: 420px;
+    }
+
+    .rights{
+        gap: 50px;
+    }
 }
+
+
+
+
+
+
 
 
 
