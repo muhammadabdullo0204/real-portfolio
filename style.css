@@ -36,7 +36,7 @@ overflow-x: hidden;
 
 .navbar {
 
-    z-index: 1000;
+    /* z-index: 1000;
     position: sticky;
     top: 0;
     display: flex;
@@ -48,8 +48,26 @@ background-color: var(--first);
     align-items: center;
     box-shadow: 7px 5px 15px -4px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 7px 5px 15px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px 5px 15px -4px rgba(0, 0, 0, 0.75); */
+
+
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    transition: background-color 0.3s ease;
+    background-color: var(--first);  
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 7px 5px 15px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 7px 5px 15px -4px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 7px 5px 15px -4px rgba(0, 0, 0, 0.75);
+
 }
+
+
 
 .nav-items>ul>li {
     position: relative;
@@ -1173,8 +1191,8 @@ transition: .5s ease;
 footer{
     color: #fff;
     background-image: url(img/background2.png);
+    z-index: 1;
 
-    z-index: -1;
 }
 .what-do-i-h1{
     text-align: center;
